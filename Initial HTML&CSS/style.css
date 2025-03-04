@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: solid black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+header .category {
+    font-size: 1em;
+    font-weight: 600;
+    color: #444;
+}
+
+header h1 {
+    color: #09122C;
+    font-size: 600 px;
+    margin: 5px 0;
+}
+
+header .author {
+    font-size: 600px; 
+    margin: 5px 0;
+}
+
+nav {
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px auto; 
+    width: 90%;
+}
+
+main {
+    text-align: justify;
+    line-height: 1.4;
+    width: 90%;
+    margin:  auto;
+    padding: 0px;
+    border-radius: 8px;
+}
+
+p{
+    color: #333;
+    margin-bottom: 8px;
+}
+
+p.author{
+    font-size: 10px;
+}
+
+nav {
+    padding: 10px;
+    margin: 10px auto; 
+    width: 90%;
+}
+
+nav h3 {
+    text-align: justify;
+    font-size: 1.2em;
+    color: solid black;
+    line-height: 1.4;
+}
+
+nav ol {
+    padding-left: 20px;
+    margin: 5px 0;
+}
+
+nav ol li {
+    margin: 3px 0;
+}
+
+ol li a:link{
+    text-decoration: none;
+    color: blue; 
+    font-weight: 500;
+}
+
+ol li a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+ol li a:visited {
+    color: rgb(197, 0, 197);
+} 
+
+.highlight {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 15px;
+}
+
+.citation{
+    font-style: italic;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+footer {
+    text-align: center;
+    color : grey;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
